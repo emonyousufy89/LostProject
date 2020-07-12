@@ -1,0 +1,224 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6160722300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Successful login with valid username and password",
+        "description": "",
+        "id": "login-feature;successful-login-with-valid-username-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 308010015,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 411228973,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "customer is on Homepage",
+            "match": {
+              "location": "LoginStepDefination.customer_is_on_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1606201623,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Customer clicks SignIn link on the top of homepage",
+            "match": {
+              "location": "LoginStepDefination.customer_clicks_Register_SignIn_link_on_the_top_of_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1254876095,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Customer enters \"MahbubaNimme2020\" and Customer enters \"Corona2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MahbubaNimme2020",
+                  "offset": 17
+                },
+                {
+                  "val": "Corona2020",
+                  "offset": 56
+                }
+              ],
+              "location": "LoginStepDefination.customer_enters_and_Customer_enters(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 749349859,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Custoemr clicks sign in",
+            "match": {
+              "location": "LoginStepDefination.custoemr_clicks_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64365,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Homepage should be shown",
+            "match": {
+              "location": "LoginStepDefination.homepage_should_be_shown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3418099421,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Successful login with valid username and password",
+        "description": "",
+        "id": "login-feature;successful-login-with-valid-username-and-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 379722083,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9772753,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "customer is on Homepage",
+            "match": {
+              "location": "LoginStepDefination.customer_is_on_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1309030756,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Customer clicks SignIn link on the top of homepage",
+            "match": {
+              "location": "LoginStepDefination.customer_clicks_Register_SignIn_link_on_the_top_of_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1062310679,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Customer enters \"QA2020\" and Customer enters \"Corona2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QA2020",
+                  "offset": 17
+                },
+                {
+                  "val": "Corona2020",
+                  "offset": 46
+                }
+              ],
+              "location": "LoginStepDefination.customer_enters_and_Customer_enters(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 791648331,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Custoemr clicks sign in",
+            "match": {
+              "location": "LoginStepDefination.custoemr_clicks_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56920,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Homepage should be shown",
+            "match": {
+              "location": "LoginStepDefination.homepage_should_be_shown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "As a QE I want to test Login Feature of USPS",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
